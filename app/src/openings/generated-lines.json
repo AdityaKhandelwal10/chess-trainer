@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "version": "v2-clean-repertoire",
+    "target_rating": "1600-2000",
+    "goal": "strong fundamentals + real positions",
+    "style": "classical, low-memorization, high-understanding"
+  },
+  "lines": [
+    {
+      "opening": "Italian Game",
+      "line": "Main Line (Giuoco Pianissimo)",
+      "moves": [
+        "e4", "e5",
+        "Nf3", "Nc6",
+        "Bc4", "Bc5",
+        "c3", "Nf6",
+        "d3", "d6",
+        "O-O", "O-O",
+        "Re1", "a6",
+        "Bb3", "Ba7",
+        "Nbd2", "h6",
+        "Nf1", "Re8"
+      ]
+    },
+    {
+      "opening": "Italian Game",
+      "line": "d4 break (critical plan)",
+      "moves": [
+        "e4", "e5",
+        "Nf3", "Nc6",
+        "Bc4", "Bc5",
+        "c3", "Nf6",
+        "d4", "exd4",
+        "cxd4", "Bb4+",
+        "Nc3", "Nxe4",
+        "O-O"
+      ]
+    },
+
+    {
+      "opening": "Ruy Lopez",
+      "line": "Closed Ruy Lopez (Main Line)",
+      "moves": [
+        "e4", "e5",
+        "Nf3", "Nc6",
+        "Bb5", "a6",
+        "Ba4", "Nf6",
+        "O-O", "Be7",
+        "Re1", "b5",
+        "Bb3", "d6",
+        "c3", "O-O",
+        "h3", "Nb8",
+        "d4", "Nbd7"
+      ]
+    },
+    {
+      "opening": "Ruy Lopez",
+      "line": "Open Ruy Lopez (vs Nxe4)",
+      "moves": [
+        "e4", "e5",
+        "Nf3", "Nc6",
+        "Bb5", "a6",
+        "Ba4", "Nf6",
+        "O-O", "Nxe4",
+        "d4", "b5",
+        "Bb3", "d5",
+        "dxe5", "Be6"
+      ]
+    },
+    {
+      "opening": "Ruy Lopez",
+      "line": "Berlin Defense",
+      "moves": [
+        "e4", "e5",
+        "Nf3", "Nc6",
+        "Bb5", "Nf6",
+        "O-O", "Nxe4",
+        "d4", "Nd6",
+        "Bxc6", "dxc6",
+        "dxe5", "Nf5"
+      ]
+    },
+    {
+      "opening": "Caro-Kann Defense",
+      "line": "Classical Main Line",
+      "moves": [
+        "e4", "c6",
+        "d4", "d5",
+        "Nc3", "dxe4",
+        "Nxe4", "Bf5",
+        "Ng3", "Bg6",
+        "Nf3", "Nd7",
+        "h4", "h6",
+        "Ne5", "Bh7"
+      ]
+    },
+    {
+      "opening": "Caro-Kann Defense",
+      "line": "Advance Variation",
+      "moves": [
+        "e4", "c6",
+        "d4", "d5",
+        "e5", "Bf5",
+        "Nf3", "e6",
+        "Be2", "c5",
+        "O-O", "Nc6",
+        "Be3"
+      ]
+    },
+    {
+      "opening": "Caro-Kann Defense",
+      "line": "Exchange Variation",
+      "moves": [
+        "e4", "c6",
+        "d4", "d5",
+        "exd5", "cxd5",
+        "Bd3", "Nc6",
+        "c3", "Nf6",
+        "Bf4", "Bg4"
+      ]
+    },
+
+    {
+      "opening": "French Defense",
+      "line": "Advance Variation",
+      "moves": [
+        "e4", "e6",
+        "d4", "d5",
+        "e5", "c5",
+        "c3", "Nc6",
+        "Nf3", "Qb6",
+        "Bd3", "cxd4",
+        "cxd4", "Bd7",
+        "O-O"
+      ]
+    },
+    {
+      "opening": "French Defense",
+      "line": "Classical (Nc3)",
+      "moves": [
+        "e4", "e6",
+        "d4", "d5",
+        "Nc3", "Nf6",
+        "Bg5", "Be7",
+        "e5", "Nfd7",
+        "Bxe7", "Qxe7",
+        "f4"
+      ]
+    },
+    {
+      "opening": "French Defense",
+      "line": "Tarrasch (3.Nd2)",
+      "moves": [
+        "e4", "e6",
+        "d4", "d5",
+        "Nd2", "c5",
+        "exd5", "Qxd5",
+        "Ngf3", "cxd4",
+        "Bc4"
+      ]
+    },
+
+    {
+      "opening": "King's Indian Defense",
+      "line": "Classical Main Line",
+      "moves": [
+        "d4", "Nf6",
+        "c4", "g6",
+        "Nc3", "Bg7",
+        "e4", "d6",
+        "Nf3", "O-O",
+        "Be2", "e5",
+        "O-O", "Nc6",
+        "d5", "Ne7"
+      ]
+    },
+    {
+      "opening": "King's Indian Defense",
+      "line": "vs f3 (Saemisch)",
+      "moves": [
+        "d4", "Nf6",
+        "c4", "g6",
+        "Nc3", "Bg7",
+        "e4", "d6",
+        "f3", "O-O",
+        "Be3", "e5",
+        "d5", "c6"
+      ]
+    },
+    {
+      "opening": "King's Indian Defense",
+      "line": "vs Bg5",
+      "moves": [
+        "d4", "Nf6",
+        "c4", "g6",
+        "Nc3", "Bg7",
+        "e4", "d6",
+        "Bg5", "h6",
+        "Be3", "e5",
+        "d5"
+      ]
+    }
+  ]
+}
