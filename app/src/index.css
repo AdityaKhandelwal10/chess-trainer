@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens — tailwind classes reference these via text-[color:var(...)] etc. */
+:root {
+  --bg: #f7f7f5;
+  --bg-panel: #ffffff;
+  --bg-panel-2: #f1f1ee;
+  --text: #1f2024;
+  --text-muted: #6b6f76;
+  --border: #e2e2de;
+  --border-strong: #cfcfc9;
+  --accent: #1f6feb;
+  --accent-hover: #1a5fcc;
+  --warn: #b45309;
+  --ok: #15803d;
+  --danger: #b91c1c;
+  --highlight: #fde68a;
+  --highlight-soft: #fef3c7;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0f1115;
+  --bg-panel: #181b22;
+  --bg-panel-2: #1f2330;
+  --text: #e6e7eb;
+  --text-muted: #9ba1ab;
+  --border: #2a2f3a;
+  --border-strong: #3a4050;
+  --accent: #5b9cff;
+  --accent-hover: #4a8be0;
+  --warn: #f59e0b;
+  --ok: #4ade80;
+  --danger: #f87171;
+  --highlight: #78350f;
+  --highlight-soft: #422006;
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Make chessground blend with the theme. */
+cg-board {
+  border-radius: 6px;
+}
